@@ -1,0 +1,24 @@
+# Machine-readable entry for this repository. Aggregated into public-software/catalog.
+# Edit here; `pub catalog sync` propagates description, topics and custom properties to GitHub.
+
+[repo]
+name        = "video"
+ring        = "domain"          # spine | platform | system | domain | standards
+layers      = ["L13"]
+wave        = 3
+tier        = "incubating"        # incubating | stable | core | archived
+maintainers = ["maint-video"]
+summary     = "Video editor (NLE) and compositing / motion graphics."
+
+# One [[component]] per crate, app or service this workspace publishes.
+# planned: pub-nle · pub-comp
+#
+# [[component]]
+# crate     = "pub-video-example"
+# kind      = "lib"                # lib | app | service | plugin | spec
+# ledger    = "<ledger entry name>"
+# readiness = "none"               # shipped | partial | seed | none
+# effort    = 3
+# specs     = []
+# provides  = ["public:area/iface@1"]
+# requires  = []
